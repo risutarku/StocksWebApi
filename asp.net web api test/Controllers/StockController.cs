@@ -1,4 +1,5 @@
 ﻿using asp.net_web_api_test.Data;
+using asp.net_web_api_test.Mappers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 
@@ -16,7 +17,8 @@ namespace asp.net_web_api_test.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var stocks = _context.Stock.ToList();
+            var stocks = _context.Stock.ToList()
+                .Select(s => s.ToStockDto());
 
             return Ok(stocks);
         }
@@ -31,7 +33,7 @@ namespace asp.net_web_api_test.Controllers
                 return NotFound();
             }
 
-            return Ok(stock);
+            return Ok(stock.ToStockDto());
         }
 
     }
