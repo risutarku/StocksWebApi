@@ -1,0 +1,76 @@
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\appsettings.Development.json
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\appsettings.json
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\asp.net web api test.exe
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\asp.net web api test.deps.json
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\asp.net web api test.runtimeconfig.json
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\asp.net web api test.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\asp.net web api test.pdb
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Azure.Core.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Azure.Identity.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Humanizer.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.CodeDom.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.Memory.Data.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.csproj.AssemblyReference.cache
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.GeneratedMSBuildEditorConfig.editorconfig
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.AssemblyInfoInputs.cache
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.AssemblyInfo.cs
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.csproj.CoreCompileInputs.cache
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.MvcApplicationPartsAssemblyInfo.cs
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.MvcApplicationPartsAssemblyInfo.cache
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\staticwebassets\msbuild.asp.net web api test.Microsoft.AspNetCore.StaticWebAssets.props
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\staticwebassets\msbuild.build.asp.net web api test.props
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.asp.net web api test.props
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.asp.net web api test.props
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\staticwebassets.pack.json
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\staticwebassets.build.json
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\staticwebassets.development.json
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\scopedcss\bundle\asp.net web api test.styles.css
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.csproj.CopyComplete
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\refint\asp.net web api test.dll
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.pdb
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\asp.net web api test.genruntimeconfig.cache
+D:\vitek\C#\asp.netWebApiTestActualApplication\asp.net web api test\obj\Debug\net7.0\ref\asp.net web api test.dll
