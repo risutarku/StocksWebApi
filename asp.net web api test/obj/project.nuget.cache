@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kkz7/5gU4Cp0muAFXG7XMhqBxFuD3mg/+YnBg6TJbP20Glfknmdo5dhySXuBnMUc8avGxJHUP44TMQFqBNGxNQ==",
+  "dgSpecHash": "tSD9ETxcDqY9W1NFjx/a+IN6gOaRwyjx9PSAT9W2LnhxsKN5orE1GgXc88/Y3Z858lqZkn4j85y1VzIaVX5yTg==",
   "success": true,
-  "projectFilePath": "D:\\vitek\\C#\\WebApiStocks\\asp.net web api test\\WebApi.csproj",
+  "projectFilePath": "D:\\vitek\\c#\\WebApiStocks\\asp.net web api test\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitye\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vitye\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

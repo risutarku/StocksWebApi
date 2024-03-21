@@ -15,6 +15,7 @@ namespace asp.net_web_api_test.Controllers
         {
             _context = context;
         }
+
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -36,6 +37,7 @@ namespace asp.net_web_api_test.Controllers
 
             return Ok(stock.ToStockDto());
         }
+
         [HttpPost]
         public IActionResult Create([FromBody] CreateStockRequestDto stockDto)
         {
@@ -66,6 +68,23 @@ namespace asp.net_web_api_test.Controllers
             _context.SaveChanges();
 
             return Ok(stockModel.ToStockDto());
+        }
+        [HttpDelete]
+        [Route("{id}")]
+        public IActionResult Delete([FromRoute] int id)
+        {
+            var stockModel = _context.Stock.FirstOrDefault(x => x.Id == id);
+
+            if (stockModel == null)
+            {
+                return NotFound();
+            }
+
+            _context.Stock.Remove(stockModel);
+
+            _context.SaveChanges();
+
+            return NoContent();
         }
 
     }
