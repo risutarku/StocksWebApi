@@ -1,5 +1,8 @@
 
 using asp.net_web_api_test.Data;
+using asp.net_web_api_test.Interfaces;
+using asp.net_web_api_test.Repostirory;
+using asp.net_web_api_test.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace asp.net_web_api_test
@@ -22,6 +25,8 @@ namespace asp.net_web_api_test
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            builder.Services.AddScoped<IStockRepository, StockRepository>();
 
             var app = builder.Build();
 
