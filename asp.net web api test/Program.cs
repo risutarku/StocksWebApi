@@ -27,6 +27,7 @@ namespace asp.net_web_api_test
             });
 
             builder.Services.AddScoped<IStockRepository, StockRepository>();
+            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 
             var app = builder.Build();
 
