@@ -26,8 +26,9 @@ namespace asp.net_web_api_test.Controllers
         {
             var stocks = await _stockRepository.GetAllAsync();
 
-            var stockDto = stocks.Select(s => s.ToStockDto());
-
+            //var stockDto = stocks.Select(s => s.ToStockDto());
+            //return Ok(stockDto);
+            
             return Ok(stocks);
         }
 

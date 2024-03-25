@@ -74,3 +74,7 @@ D:\vitek\C#\WebApiStocks\asp.net web api test\obj\Debug\net7.0\refint\WebApi.dll
 D:\vitek\C#\WebApiStocks\asp.net web api test\obj\Debug\net7.0\WebApi.pdb
 D:\vitek\C#\WebApiStocks\asp.net web api test\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 D:\vitek\C#\WebApiStocks\asp.net web api test\obj\Debug\net7.0\ref\WebApi.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

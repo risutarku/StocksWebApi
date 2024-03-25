@@ -1,4 +1,5 @@
-﻿using asp.net_web_api_test.Models;
+﻿using asp.net_web_api_test.Dtos.Comment;
+using asp.net_web_api_test.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -13,5 +14,6 @@ namespace asp.net_web_api_test.Dtos.Stock
         public decimal LastDiv { get; set; }
         public string Industry { get; set; } = string.Empty;
         public long MarketCap { get; set; }
+        public List<CommentDto> Comments { get; set; }
     }
 }
