@@ -30,9 +30,9 @@ namespace asp.net_web_api_test.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    //b.Property<string>("AppUserId")
+                    //    .IsRequired()
+                    //    .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Content")
                         .IsRequired()

@@ -1,4 +1,5 @@
 ﻿using asp.net_web_api_test.Data;
+using asp.net_web_api_test.Dtos.Comment;
 using asp.net_web_api_test.Interfaces;
 using asp.net_web_api_test.Mappers;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +13,12 @@ namespace asp.net_web_api_test.Controllers
     public class CommentController : ControllerBase
     {
         private readonly ICommentRepository _commentRepository;
+        private readonly IStockRepository _stockRepository;
 
-        public CommentController(ICommentRepository commentRepository)
+        public CommentController(ICommentRepository commentRepository, IStockRepository stockRepository)
         {
             _commentRepository = commentRepository;
+            _stockRepository = stockRepository;
         }
 
         [HttpGet]
@@ -40,5 +43,19 @@ namespace asp.net_web_api_test.Controllers
 
             return Ok(comment.ToCommentDto());
         }
+
+        [HttpPost("{stockId}")]
+        public async Task<IActionResult> Create([FromRoute] int stockId, CreateCommentDto commentDto)
+        {
+            if (!await _stockRepository.StockExists(stockId))
+            {
+                return BadRequest("Stock does not exist");
+            }
+
+            var commentModel = commentDto.ToCommentFromCreateDto(stockId);
+            await _commentRepository.CreateAsync(commentModel);
+            return CreatedAtAction(nameof(GetById), new { id = commentModel.Id }, commentModel.ToCommentDto());
+        }
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vitek\\c#\\WebApiStocks\\asp.net web api test\\WebApi.csproj": {}
+    "D:\\vitek\\C#\\WebApiStocks\\asp.net web api test\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\vitek\\c#\\WebApiStocks\\asp.net web api test\\WebApi.csproj": {
+    "D:\\vitek\\C#\\WebApiStocks\\asp.net web api test\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vitek\\c#\\WebApiStocks\\asp.net web api test\\WebApi.csproj",
+        "projectUniqueName": "D:\\vitek\\C#\\WebApiStocks\\asp.net web api test\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\vitek\\c#\\WebApiStocks\\asp.net web api test\\WebApi.csproj",
+        "projectPath": "D:\\vitek\\C#\\WebApiStocks\\asp.net web api test\\WebApi.csproj",
         "packagesPath": "C:\\Users\\vitye\\.nuget\\packages\\",
-        "outputPath": "D:\\vitek\\c#\\WebApiStocks\\asp.net web api test\\obj\\",
+        "outputPath": "D:\\vitek\\C#\\WebApiStocks\\asp.net web api test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
