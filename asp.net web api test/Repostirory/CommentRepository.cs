@@ -1,4 +1,5 @@
 ﻿using asp.net_web_api_test.Data;
+using asp.net_web_api_test.Dtos.Comment;
 using asp.net_web_api_test.Interfaces;
 using asp.net_web_api_test.Models;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +30,23 @@ namespace asp.net_web_api_test.Repostirory
         public async Task<Comment> GetByIdAsync(int id)
         {
             return await _context.Comment.FindAsync(id);
+        }
+
+        public async Task<Comment?> UpdateAsync(int id, Comment commentModel)
+        {
+            var existingComment = await _context.Comment.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (existingComment == null)
+            {
+                return null;
+            }
+
+            existingComment.Title = commentModel.Title;
+            existingComment.Content = commentModel.Content;
+
+            await _context.SaveChangesAsync();
+
+            return existingComment;
         }
     }
 }
