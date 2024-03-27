@@ -10,6 +10,7 @@ namespace asp.net_web_api_test.Interfaces
         Task<Comment?> GetByIdAsync(int id);
         Task<Comment> CreateAsync(Comment commentModel);
         Task<Comment?> UpdateAsync(int id, Comment commentModel);
+        Task<Comment?> DeleteAsync(int id);
 
     }
 }

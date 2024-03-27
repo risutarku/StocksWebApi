@@ -2,6 +2,7 @@
 using asp.net_web_api_test.Dtos.Comment;
 using asp.net_web_api_test.Interfaces;
 using asp.net_web_api_test.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.CompilerServices;
 
@@ -19,6 +20,21 @@ namespace asp.net_web_api_test.Repostirory
         {
             await _context.Comment.AddAsync(commentModel);
             await _context.SaveChangesAsync();
+            return commentModel;
+        }
+
+        public async Task<Comment?> DeleteAsync(int id)
+        {
+            var commentModel = await _context.Comment.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (commentModel == null)
+            {
+                return null;
+            }
+
+            _context.Comment.Remove(commentModel);
+            await _context.SaveChangesAsync();
+
             return commentModel;
         }
 
