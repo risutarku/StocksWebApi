@@ -1,5 +1,6 @@
 ﻿using asp.net_web_api_test.Data;
 using asp.net_web_api_test.Dtos.Stock;
+using asp.net_web_api_test.Helpers;
 using asp.net_web_api_test.Interfaces;
 using asp.net_web_api_test.Mappers;
 using Microsoft.AspNetCore.Mvc;
@@ -22,12 +23,12 @@ namespace asp.net_web_api_test.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var stocks = await _stockRepository.GetAllAsync();
+            var stocks = await _stockRepository.GetAllAsync(query);
 
             return Ok(stocks);
         }
