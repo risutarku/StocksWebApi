@@ -7,6 +7,6 @@
     "\\asp.net web api test\\Dtos\\Stock",
     "\\asp.net web api test\\Mappers"
   ],
-  "SelectedNode": "\\asp.net web api test\\Mappers\\StockMappers.cs",
+  "SelectedNode": "\\asp.net web api test\\Controllers\\CommentController.cs",
   "PreviewInSolutionExplorer": false
 }
