@@ -58,7 +58,7 @@ namespace asp.net_web_api_test.Controllers
 
             if (!await _stockRepository.StockExists(stockId))
             {
-                return BadRequest("Stock does not exist");
+                return BadRequest("Stock does not exists");
             }
 
             var commentModel = commentDto.ToCommentFromCreateDto(stockId);
