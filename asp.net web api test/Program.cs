@@ -4,6 +4,9 @@ using asp.net_web_api_test.Interfaces;
 using asp.net_web_api_test.Repostirory;
 using asp.net_web_api_test.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace asp.net_web_api_test
 {
@@ -34,6 +37,33 @@ namespace asp.net_web_api_test
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
+            {
+                option.Password.RequireDigit = true;
+                option.Password.RequireNonAlphanumeric = true;
+                option.Password.RequireUppercase = true;
+                option.Password.RequireLowercase = true;
+                option.Password.RequiredLength = 12;
+            }).AddEntityFrameworkStores<ApplicationDBContext>();
+
+            //builder.Services.AddAuthentication(options =>
+            //{
+            //   options.DefaultAuthenticateScheme =
+            //   options.DefaultChallengeScheme =
+            //   options.DefaultForbidScheme =
+            //   options.DefaultScheme =
+            //   options.DefaultSignInScheme =
+            //   options.DefaultSignOutScheme = JwtBearerDefaults.AuthenticationScheme;
+            //}).AddJwtBearer(options =>
+            //{
+            //    options.TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        ValidateIssuer = true,
+            //        ValidIssuer = builder.Configuration["JWT:Isseur"]
+            //    };
+            //});
+
             builder.Services.AddScoped<IStockRepository, StockRepository>();
             builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 

@@ -78,3 +78,10 @@ D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetC
 D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\vitek\C#\WebApiStocks\asp.net web api test\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
