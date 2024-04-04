@@ -5,8 +5,9 @@
     "\\asp.net web api test\\Controllers",
     "\\asp.net web api test\\Dtos",
     "\\asp.net web api test\\Dtos\\Stock",
+    "\\asp.net web api test\\Interfaces",
     "\\asp.net web api test\\Mappers"
   ],
-  "SelectedNode": "\\asp.net web api test\\Program.cs",
+  "SelectedNode": "\\asp.net web api test\\Interfaces\\IStockRepository.cs",
   "PreviewInSolutionExplorer": false
 }
