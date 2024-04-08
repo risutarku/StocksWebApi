@@ -3,10 +3,13 @@
     "",
     "\\asp.net web api test",
     "\\asp.net web api test\\Controllers",
+    "\\asp.net web api test\\Data",
     "\\asp.net web api test\\Dtos",
     "\\asp.net web api test\\Dtos\\Stock",
-    "\\asp.net web api test\\Mappers"
+    "\\asp.net web api test\\Interfaces",
+    "\\asp.net web api test\\Mappers",
+    "\\asp.net web api test\\Migrations"
   ],
-  "SelectedNode": "\\asp.net web api test\\Program.cs",
+  "SelectedNode": "\\asp.net web api test\\Migrations\\ApplicationDBContextModelSnapshot.cs",
   "PreviewInSolutionExplorer": false
 }
