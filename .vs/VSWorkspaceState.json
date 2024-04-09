@@ -7,15 +7,9 @@
     "\\asp.net web api test\\Dtos",
     "\\asp.net web api test\\Dtos\\Stock",
     "\\asp.net web api test\\Interfaces",
-<<<<<<< HEAD
     "\\asp.net web api test\\Mappers",
     "\\asp.net web api test\\Migrations"
   ],
-  "SelectedNode": "\\asp.net web api test\\Migrations\\ApplicationDBContextModelSnapshot.cs",
-=======
-    "\\asp.net web api test\\Mappers"
-  ],
-  "SelectedNode": "\\asp.net web api test\\Interfaces\\IStockRepository.cs",
->>>>>>> c21f2f427d57600c8d7a67ca477a26ef9b39e7c7
+  "SelectedNode": "\\asp.net web api test\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
