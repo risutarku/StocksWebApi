@@ -3,6 +3,7 @@ using asp.net_web_api_test.Dtos.Stock;
 using asp.net_web_api_test.Helpers;
 using asp.net_web_api_test.Interfaces;
 using asp.net_web_api_test.Mappers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query.Internal;
@@ -23,6 +24,7 @@ namespace asp.net_web_api_test.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid)
